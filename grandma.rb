@@ -8,11 +8,20 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 def speak_to_grandma(quote)
+<<<<<<< HEAD
   if quote == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
   elsif quote == quote.upcase
     return "NO, NOT SINCE 1938!"
   else quote!= quote.upcase
     return "HUH?! SPEAK UP, SONNY!"
+=======
+  if quote != quote.upcase
+    puts "HUH?! SPEAK UP, SONNY!"
+  elsif quote == quote.upcase
+    puts "NO, NOT SINCE 1938!"
+  else quote == "I LOVE YOU GRANDMA!"
+    puts "I LOVE YOU TOO PUMPKIN!"
+>>>>>>> b3d0dda404126741d508d5f5e9acba4f12f2d658
   end
 end
